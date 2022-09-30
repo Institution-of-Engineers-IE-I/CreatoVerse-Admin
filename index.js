@@ -54,7 +54,7 @@ const data = async () => {
 // }
 window.addEventListener('load', function () {
     // Your document is loaded.
-    var fetchInterval = 500; // 45 seconds.
+    var fetchInterval = 45000; // 45 seconds.
   
     // Invoke the request every 45 seconds.
     setInterval(data, fetchInterval);
